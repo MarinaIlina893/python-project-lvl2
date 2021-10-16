@@ -12,11 +12,8 @@ def generate_diff(first_file_path, second_file_path):
         elif key not in second_file:
             result = f"{result }  - {key}: {first_file[key]}" + '\n'
         elif first_file[key] == second_file[key]:
-            result= f'{result}    {key}: {first_file[key]}' + '\n'
+            result = f'{result}    {key}: {first_file[key]}' + '\n'
         else:
-            result= f'{result}  - {key}: {first_file[key]}' + '\n'
+            result = f'{result}  - {key}: {first_file[key]}' + '\n'
             result = f'{result}  + {key}: {second_file[key]}' + '\n'
-    return result+'}'
-
-
-
+    return result + '}'
