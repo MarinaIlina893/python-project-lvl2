@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="fix syntax error in test action" />
+    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="add test coverage report">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/make-lint-and-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/make-lint-and-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634412691915</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add test coverage report">
+      <created>1634413216041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634413216041</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +141,7 @@
     <MESSAGE value="add codeclimate badges" />
     <MESSAGE value="add tests" />
     <MESSAGE value="fix syntax error in test action" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix syntax error in test action" />
+    <MESSAGE value="add test coverage report" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test coverage report" />
   </component>
 </project>
