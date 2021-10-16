@@ -21,3 +21,6 @@ jobs:
         uses: paambaati/codeclimate-action@v3.0.0
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TEST_COV }}
+        with:
+          coverageCommand: make test-coverage
+          debug: true
