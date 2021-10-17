@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="add test coverage report">
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gendiff/parse_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/generate_diff/first.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/generate_diff/second.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/generate_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/generate_diff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_generate_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_generate_diff.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634415605392</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add test coverage report">
+      <created>1634415719028</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1634415719028</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
