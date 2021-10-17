@@ -1,5 +1,6 @@
 from gendiff.parse_file import parse_file
 
+
 def generate_diff(first_file_path, second_file_path):
     first_file = parse_file(first_file_path)
     second_file = parse_file(second_file_path)
