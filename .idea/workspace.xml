@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="add yaml parse" />
+    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="fix linter">
+      <change afterPath="$PROJECT_DIR$/gendiff/format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/e2e/first_nested.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/e2e/result_nested" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/e2e/second_nested.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/format/nested_and_nested_different.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/format/nested_and_nested_similar.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/format/nested_and_not_nested" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_dict_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/generate_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/generate_diff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/first.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/first.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/first.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/first.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/result" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/second.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/second.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/second.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/second.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_generate_diff.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +62,115 @@
       <recent name="$PROJECT_DIR$/.venv/gendiff/scripts" />
       <recent name="$PROJECT_DIR$/.venv/gendiff" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_e2e.test_e2e_only_json">
+    <configuration name="generate_diff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-project-lvl2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gendiff" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gendiff/generate_diff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_dict_diff.test_nested_and_nested_different" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-project-lvl2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_dict_diff.test_nested_and_nested_different&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_e2e.test_e2e_only_json" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-project-lvl2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_e2e.test_e2e_only_json&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_generate_diff.test_generate_diff_format_stylish" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-project-lvl2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_generate_diff.test_generate_diff_format_stylish&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_dict_diff" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-project-lvl2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_dict_diff&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_dict_diff" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-project-lvl2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_dict_diff&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.generate_diff" />
+      <item itemvalue="Python tests.Python tests for test_generate_diff.test_generate_diff_format_stylish" />
+      <item itemvalue="Python tests.Python tests for tests.test_dict_diff" />
+      <item itemvalue="Python tests.Python tests for test_dict_diff.test_nested_and_nested_different" />
+      <item itemvalue="Python tests.Python tests for test_e2e.test_e2e_only_json" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_e2e.test_e2e_only_json" />
+        <item itemvalue="Python tests.Python tests for test_dict_diff.test_nested_and_nested_different" />
+        <item itemvalue="Python tests.Python tests for tests.test_dict_diff" />
+        <item itemvalue="Python tests.Python tests for tests.test_dict_diff" />
+        <item itemvalue="Python.generate_diff" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -158,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634463123513</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix linter">
+      <created>1634463278981</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1634463278981</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +317,62 @@
     <MESSAGE value="fix syntax error in test action" />
     <MESSAGE value="add test coverage report" />
     <MESSAGE value="add yaml parse" />
-    <option name="LAST_COMMIT_MESSAGE" value="add yaml parse" />
+    <MESSAGE value="fix linter" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix linter" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/format.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/format.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/format.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/format.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/scripts/gendiff.py</url>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/generate_diff.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/generate_diff.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/generate_diff.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/format.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gendiff/format.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
