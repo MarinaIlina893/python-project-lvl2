@@ -1,5 +1,6 @@
 from gendiff.generate_diff import dict_diff
 
+
 def test_without_nested():
     file1 = {
                 'a': 1,
@@ -11,6 +12,7 @@ def test_without_nested():
     assert dict_diff(file1, file2) == {'a': ('not modified', 1),
                                        'b': ('modified', 2, 3)
                                        }
+
 
 def test_nested_and_not_nested():
     file1 = {
@@ -24,6 +26,7 @@ def test_nested_and_not_nested():
                                        'b': ('not modified', 2)
                                        }
 
+
 def test_nested_and_nested_similar():
     file1 = {
                 'a': {'c': 3},
@@ -36,6 +39,7 @@ def test_nested_and_nested_similar():
                                        'b': ('not modified', 2)
                                        }
 
+
 def test_nested_and_nested_different():
     file1 = {
                 'a': {'c': 4},
@@ -47,6 +51,7 @@ def test_nested_and_nested_different():
     assert dict_diff(file1, file2) == {'a': ('nested modified', {'c': ('modified', 4, 3)}),
                                        'b': ('not modified', 2)
                                        }
+
 
 def test_nested_deleted():
     file1 = {

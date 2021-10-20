@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="fix linter">
-      <change afterPath="$PROJECT_DIR$/gendiff/format.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/e2e/first_nested.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/e2e/result_nested" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/e2e/second_nested.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/format/nested_and_nested_different.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/format/nested_and_nested_similar.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/format/nested_and_not_nested" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_dict_diff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_format.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/generate_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/generate_diff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/first.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/first.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/first.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/first.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/result" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/result" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/second.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/second.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/generate_diff/second.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/second.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_generate_diff.py" beforeDir="false" />
+    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="add recursive diff and format&#10;detach style and diff functions">
+      <change beforePath="$PROJECT_DIR$/tests/test_dict_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_dict_diff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634463278981</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add recursive diff and format&#10;detach style and diff functions">
+      <created>1634755506918</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1634755506918</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +309,8 @@
     <MESSAGE value="add test coverage report" />
     <MESSAGE value="add yaml parse" />
     <MESSAGE value="fix linter" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix linter" />
+    <MESSAGE value="add recursive diff and format&#10;detach style and diff functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add recursive diff and format&#10;detach style and diff functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
