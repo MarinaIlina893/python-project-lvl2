@@ -1,11 +1,15 @@
 from gendiff.parse_file import parse_file
-from gendiff.format import format_stylish
+from gendiff.format_stylish import format_stylish
+from gendiff.format_plain import format_plain
 
 
 def generate_diff(first_file_path, second_file_path, format='stylish'):
     first_file = parse_file(first_file_path)
     second_file = parse_file(second_file_path)
-    return format_stylish(dict_diff(first_file, second_file))
+    if format == 'stylish':
+        return format_stylish(dict_diff(first_file, second_file))
+    else:
+        return format_plain(dict_diff(first_file, second_file))
 
 
 def dict_diff(first_file, second_file):
