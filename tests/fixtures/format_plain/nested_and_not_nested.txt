@@ -1,1 +1,1 @@
-Property 'a' was updated. From [complex value] to '10'
+Property 'a' was updated. From [complex value] to 10

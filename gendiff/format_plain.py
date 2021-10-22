@@ -24,7 +24,7 @@ def stylish_value(value):
     if type(value) == dict:
         return '[complex value]'
     if type(value) == int:
-        return f'\'{value}\''
+        return value
     dict_ = {True: 'true',
              False: 'false',
              None: 'null'}
