@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="remove absolute paths in tests">
-      <change afterPath="$PROJECT_DIR$/gendiff/format_plain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/e2e/result_nested_plain.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/format_plain/nested_and_nested_different.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/format_plain/nested_and_not_nested.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_format_plain.py" afterDir="false" />
+    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="add plain format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/format.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/format_stylish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/generate_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/generate_diff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/e2e/result" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/result_plain_stylish" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/e2e/result_nested" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/e2e/result_nested_stylish" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/format/nested_and_nested_different.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/format_stylish/nested_and_nested_different.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/format/nested_and_nested_similar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/format_stylish/nested_and_nested_similar.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/format/nested_and_not_nested" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/format_stylish/nested_and_not_nested" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_format_stylish.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634755818161</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add plain format">
+      <created>1634842108199</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1634842108199</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +318,8 @@
     <MESSAGE value="fix linter" />
     <MESSAGE value="add recursive diff and format&#10;detach style and diff functions" />
     <MESSAGE value="remove absolute paths in tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove absolute paths in tests" />
+    <MESSAGE value="add plain format" />
+    <option name="LAST_COMMIT_MESSAGE" value="add plain format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
