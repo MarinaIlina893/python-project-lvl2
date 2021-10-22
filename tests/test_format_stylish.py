@@ -4,7 +4,7 @@ from gendiff.format_stylish import format_stylish
 def test_nested_and_not_nested():
     dict_diff = {'a': ('modified', {'c': 3}, 10),
                  'b': ('not modified', 2)
-                                }
+                 }
     print(format_stylish(dict_diff))
     with open('tests/fixtures/format_stylish/nested_and_not_nested', 'r') as file:
         data = file.read()
