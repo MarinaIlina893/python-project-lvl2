@@ -23,6 +23,8 @@ def format_plain(diff, path=''):
 def stylish_value(value):
     if type(value) == dict:
         return '[complex value]'
+    if type(value) == int:
+        return value
     dict_ = {True: 'true',
              False: 'false',
              None: 'null'}
