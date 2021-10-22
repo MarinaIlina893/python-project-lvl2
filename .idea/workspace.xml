@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="fix  yml  bug">
-      <change beforePath="$PROJECT_DIR$/gendiff/generate_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/generate_diff.py" afterDir="false" />
+    <list default="true" id="4b80e000-c403-4b80-8d86-3bac5e284681" name="Changes" comment="fix cli">
+      <change beforePath="$PROJECT_DIR$/tests/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_format_plain.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_format_plain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_format_stylish.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_format_stylish.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634927158150</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="fix cli">
+      <created>1634927802049</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1634927802049</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,6 +416,7 @@
     <MESSAGE value="fix bug with numbers to bool" />
     <MESSAGE value="add json formatter" />
     <MESSAGE value="fix  yml  bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix  yml  bug" />
+    <MESSAGE value="fix cli" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix cli" />
   </component>
 </project>

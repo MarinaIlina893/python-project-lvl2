@@ -25,11 +25,10 @@ def test_e2e_nested():
     assert generate_diff('tests/fixtures/e2e/first_nested.json',
                          'tests/fixtures/e2e/second_nested.json') == data
 
+
 def test_e2e_nested_plain():
     with open('tests/fixtures/e2e/result_nested_plain.txt',
               'r') as file:
         data = file.read()
-    print(generate_diff('tests/fixtures/e2e/first_nested.json',
-                         'tests/fixtures/e2e/second_nested.json', 'plain'))
     assert generate_diff('tests/fixtures/e2e/first_nested.json',
                          'tests/fixtures/e2e/second_nested.json', 'plain') == data

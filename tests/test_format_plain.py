@@ -19,8 +19,8 @@ def test_nested_and_nested_similar():
 
 def test_nested_and_nested_different():
     dict_diff = {'a': ('nested modified', {'c': ('modified', 4, 3)}),
-                                       'b': ('not modified', 2)
-                                       }
+                 'b': ('not modified', 2)
+                 }
     with open('tests/fixtures/format_plain/nested_and_nested_different.txt',
               'r') as file:
         data = file.read()
