@@ -7,12 +7,12 @@ from gendiff.format_json import format_json
 def generate_diff(first_file_path, second_file_path, format='stylish'):
     first_file = parse_file(first_file_path)
     second_file = parse_file(second_file_path)
-    if format == 'stylish':
-        return format_stylish(dict_diff(first_file, second_file))
+    if format == 'json':
+        return format_json(dict_diff(first_file, second_file))
     elif format == 'plain':
         return format_plain(dict_diff(first_file, second_file))
     else:
-        return format_json(dict_diff(first_file, second_file))
+        return format_stylish(dict_diff(first_file, second_file))
 
 
 def dict_diff(first_file, second_file):
