@@ -16,6 +16,8 @@ def format_stylish(diff, indent=2):
 
 
 def stylish_value(value):
+    if type(value) == int:
+        return value
     dict_ = {True: 'true',
              False: 'false',
              None: 'null'}
