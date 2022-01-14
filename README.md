@@ -1,5 +1,7 @@
 ### О проекте
 Консольная утилита для поиска различий между файлами. Поддерживает файлы в форматах json и yaml. Отображает различия списком или в виде дерева.
+Пример работы:
+<script id="asciicast-0xKt7FcteUM12Iyu4xv28JV4E" src="https://asciinema.org/a/0xKt7FcteUM12Iyu4xv28JV4E.js" async></script>
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/MarinaIlina893/python-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/MarinaIlina893/python-project-lvl2/actions)
 ### Maintainability status:
